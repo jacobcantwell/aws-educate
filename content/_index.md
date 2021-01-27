@@ -18,6 +18,6 @@ Today we are going to learn how to make your own machine learning program so tha
 
 ### Workshop Goals
 
-* Create your own machine learning model which can detect puppies in photographs.
-* Learn about the basic skills needed for Machine Learning.
-* Understand how machine learning and the cloud can be used in the future.
+* Create your own machine learning model which can detect puppies in photographs
+* Learn about the basic skills needed for machine learning
+* Understand how machine learning and the cloud can be used in the future

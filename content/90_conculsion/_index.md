@@ -4,9 +4,10 @@ chapter = true
 weight = 90
 +++
 
-# Conclusion
+## Conclusion
 
-Congrats! You've reached the end of today's workshop.
-Please fill out today's feedback form via this [link](https://gremlininc.typeform.com/to/iGpRrKJE)
+Congratulations! You have reached the end of today's workshop.
+
+Please fill out today's [feedback form](/#).
 
 {{% children showhidden="false" %}}
