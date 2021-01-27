@@ -1,28 +1,23 @@
 ---
-title: "Read Analogue Gauges With Computer Vision on AWS"
+title: "Puppy Vision AWS Educate Workshop"
 chapter: true
 weight: 1
 ---
 
-## Read Analogue Gauges With Machine Learning on AWS
+## Puppy Vision AWS Educate Workshop
 
-![Analogue gauge reading flow](images/three-gauges.png)
+### What is it
 
-The [Read Analogue Gauges With Machine Learning on AWS](https://aws-computer-vision.jacobcantwell.com/) workshop walks you through the end-to-end process for building analogue gauges (real and virtual), generating training data for use with AWS machine learning services including Amazon SageMaker and Amazon Rekognition, building a machine learning model that can detect and read different gauge types, deploying the model on the cloud and on edge devices, converting gauge image data to usable digital telemetry, and presenting the telemetry on a centralized digital dashboard. This end-to-end process can be reused for training your own models for similar machine learning projects.
+The Puppy Challenge is a fun, innovative workshop that teaches you the basics of machine learning on the AWS. The purpose of this challenge is to use cloud computing to teach your computer how to recognize a puppy (or kitten) in a photo. We will be using AWS Rekognition, which is our computer software that uses machine learning to detect if puppies (or kittens) are in the photo.
 
-## Analogue Gauge Builder
+### What is Machine Learning
 
-Create your own virtual analogue gauges in the [Analogue Gauge Builder](gauge/?g=bp100,bp200,bp50,bp75,bp60,bp100) website.
+Machine learning is the science of getting computers to use math to detect patterns. It is an important technology which is being used to help make driverless cars! Machine learning can detect anything you teach it, from humans to buildings and of course puppies (and kittens).
 
-[![Analogue Gauge Builder](images/analogue-gauge-builder.jpg)](gauge/?g=bp100,bp200,bp50,bp75,bp60,bp100)
+Today we are going to learn how to make your own machine learning program so that in the future you can help build amazing technologies that will help change the world.
 
-## Agenda
+### Workshop Goals
 
-* Virtual - Send mock AWS analogue telemetry to AWS IoT
-* Virtual - Build real time analogue gauges Kibana
-* Virtual or Real - Take screen captures of the analog gauges for training data
-* Deploy a sample model that can detect a Kibana gauge on a Deeplens camera
-* Label the images with Amazon Sagemaker ground truth
-* Build a custom model with Sagemaker that can read the gauge values
-* Invoke an endpoint client
-* View the real time dashboard with dial data
+* Create your own machine learning model which can detect puppies in photographs.
+* Learn about the basic skills needed for Machine Learning.
+* Understand how machine learning and the cloud can be used in the future.
