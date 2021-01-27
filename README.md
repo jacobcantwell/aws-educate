@@ -1,5 +1,21 @@
-# Read Analogue Gauges With Machine Learning on AWS
+# AWS Educate Workshops
 
-Analogue pointer-type dials are widely applied in many industries such as Oil & Gas. Visual inspection to remote oil well sites is necessary to obtain readings from analog gauges. This means a human operator must travel to the gauge’s location, read its current value, and log that value to enable the data to be used elsewhere. This is a time consuming and expensive process and it is prone to human errors. An alternative to the manual readings is to record a video of the gauge and analyze the pressure variations using computer vision techniques. This project shows how to use AWS IoT services to read analogue gauges remotely.
+## Puppy and Kitten Vision AWS Educate Workshop
 
-[Read Analogue Gauges With Machine Learning on AWS](https://aws-computer-vision.jacobcantwell.com/)
+### What is it
+
+The Puppy Challenge is a fun, innovative workshop that teaches you the basics of machine learning on the AWS. The purpose of this challenge is to use cloud computing to teach your computer how to recognize a puppy or kitten in a photo. We will be using AWS Rekognition, which is our computer software that uses machine learning to detect if puppies are in the photo.
+
+### What is Machine Learning
+
+Machine learning is the science of getting computers to use math to detect patterns. It is an important technology which is being used to help make driverless cars! Machine learning can detect anything you teach it, from humans to buildings and of course puppies and kittens.
+
+Today we are going to learn how to make your own machine learning program so that in the future you can help build amazing technologies that will help change the world.
+
+### Workshop Goals
+
+* Create your own machine learning model which can detect puppies in photographs.
+* Learn about the basic skills needed for Machine Learning.
+* Understand how machine learning and the cloud can be used in the future.
+
+[Puppy and Kitten Vision AWS Educate Workshop](https://aws-educate.jacobcantwell.com/)
