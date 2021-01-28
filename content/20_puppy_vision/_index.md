@@ -1,7 +1,7 @@
 +++
-title = "Puppy Vision Workshop v1"
+title = "Puppy Vision Workshop v2"
 chapter = true
-weight = 20
+weight = 21
 +++
 
 ## Creating the project
