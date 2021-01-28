@@ -4,6 +4,10 @@ chapter: true
 weight: 1
 ---
 
-## Puppy Vision AWS Educate Workshop
+## AWS Educate
 
+Setup your [AWS Educate Account](/10_aws_educate.html).
 
+## Puppy Vision Workshop
+
+Start the [Puppy Vision Workshop](/20_puppy_vision.html).

@@ -1,5 +1,5 @@
 +++
-title = "Set Up"
+title = "AWS Educate"
 chapter = true
 weight = 10
 +++
