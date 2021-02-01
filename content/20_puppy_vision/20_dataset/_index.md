@@ -6,7 +6,27 @@ weight = 20
 
 ## Creating the dataset
 
-To train our program to detect puppies, we need to create a dataset first. A dataset is collection of data which is needed to train the cloud to detect puppies in photos.
+This is the part of the challenge where we use Amazon Rekognition to train our computers to detect puppies. To do this we need to create a data-set first.
+
+For us, the data-set will be the collection of puppy photos that AWS Rekognition will learn from in order to detect puppies in photos.
+
+![Two very cute puppies](20_dataset/images/create-dataset-01.png "Two very cute puppies")
+
+To train Amazon Rekognition how to detect puppies, we need to give it a set of puppy photos first so it can learn what they look like.
+
+You have ten minutes to find the following photos of puppies on the internet. Search the [Pexels](https://www.pexels.com/search/puppy) image website to find some images of puppies.
+
+* 5 cute photos of golden puppies
+* 5 photos of puppies at the beach
+* 5 funny photos of puppies
+
+Make sure to save all pictures to your desktop.
+
+1. We need to start by creating the data set. Choose **Create dataset** to begin.
+
+---
+---
+---
 
 It is like learning at school; in order to remember a fact you need to repeat it.
 
