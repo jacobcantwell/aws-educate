@@ -25,3 +25,5 @@ Today you are going to learn how to use AWS to make your own machine learning pr
 * Train our own Amazon Rekognition model to detect puppies in photographs.
 * Learn about the basic cloud computing skills needed for Machine Learning.
 * Understand how machine learning and AWS can be used in the future.
+
+![Very cute puppy sitting on a grass field](20_puppy_vision/images/puppy-vision-03.png "Very cute puppy sitting on a grass field")
