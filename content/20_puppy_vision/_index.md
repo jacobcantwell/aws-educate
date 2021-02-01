@@ -4,20 +4,24 @@ chapter = true
 weight = 21
 +++
 
-## Puppy Vision AWS Educate Workshop
+## The Puppy Challenge Workshop
 
-### What is it
+### What is the Puppy Challenge?
 
-The Puppy Challenge is a fun, innovative workshop that teaches you the basics of machine learning on the AWS. The purpose of this challenge is to use cloud computing to teach your computer how to recognize a puppy (or kitten) in a photo. We will be using AWS Rekognition, which is our computer software that uses machine learning to detect if puppies (or kittens) are in the photo.
+The Puppy Challenge is a fun, innovative workshop that teaches you the basics of machine learning on the AWS Cloud! The purpose of this challenge is to use AWS Rekognition, a cloud based machine learning program, to recognize a puppy in a photo.
 
-### What is Machine Learning
+![Cute doggies](20_puppy_vision/images/puppy-vision-01.png "Cute doggies")
 
-Machine learning is the science of getting computers to use math to detect patterns. It is an important technology which is being used to help make driverless cars! Machine learning can detect anything you teach it, from humans to buildings and of course puppies (and kittens).
+### What is Machine Learning?
 
-Today we are going to learn how to make your own machine learning program so that in the future you can help build amazing technologies that will help change the world.
+Machine learning is the idea that computers can learn from data, find patterns and make decisions with minimal human intervention. It is an important technology which is being used to help make driver-less cars! Machine learning can detect anything you teach it, from humans to buildings and of course puppies! It does this by using algorithms to learn what objects look like from a collection of initial photos (called a data set!).
 
-### Workshop Goals
+Today you are going to learn how to use AWS to make your own machine learning program that recognizes puppies so that in the future you can help build amazing technologies that will help change the world.
 
-* Create your own machine learning model which can detect puppies in photographs
-* Learn about the basic skills needed for machine learning
-* Understand how machine learning and the cloud can be used in the future
+![Cool puppy with sunglasses](20_puppy_vision/images/puppy-vision-02.png "Cool puppy with sunglasses")
+
+### Our Goals for Today
+
+* Train our own Amazon Rekognition model to detect puppies in photographs.
+* Learn about the basic cloud computing skills needed for Machine Learning.
+* Understand how machine learning and AWS can be used in the future.
