@@ -1,20 +1,20 @@
 +++
-title = "Puppy Vision Workshop"
+title = "Puppy Challenge"
 chapter = true
 weight = 21
 +++
 
-## The Puppy Challenge Workshop
+## Puppy Challenge
 
 ### What is the Puppy Challenge?
 
-The Puppy Challenge is a fun, innovative workshop that teaches you the basics of machine learning on the AWS Cloud! The purpose of this challenge is to use AWS Rekognition, a cloud based machine learning program, to recognize a puppy in a photo.
+The Puppy Challenge is a fun, innovative workshop that teaches you the basics of machine learning on the AWS Cloud. The purpose of this challenge is to use AWS Rekognition, a cloud based machine learning program, to recognize a puppy in a photo.
 
 ![Cute doggies](20_puppy_vision/images/puppy-vision-01.png "Cute doggies")
 
 ### What is Machine Learning?
 
-Machine learning is the idea that computers can learn from data, find patterns and make decisions with minimal human intervention. It is an important technology which is being used to help make driver-less cars! Machine learning can detect anything you teach it, from humans to buildings and of course puppies! It does this by using algorithms to learn what objects look like from a collection of initial photos (called a data set!).
+Machine learning is the idea that computers can learn from data, find patterns and make decisions with minimal human intervention. It is an important technology which is being used to help make driver-less cars. Machine learning can detect anything you teach it, from humans to buildings and of course puppies. It does this by using algorithms to learn what objects look like from a collection of initial photos (called a data set).
 
 Today you are going to learn how to use AWS to make your own machine learning program that recognizes puppies so that in the future you can help build amazing technologies that will help change the world.
 

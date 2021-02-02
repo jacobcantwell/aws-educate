@@ -8,6 +8,8 @@ weight: 1
 
 Setup your [AWS Educate Account](/10_aws_educate.html).
 
-## Puppy Vision Workshop
+## Puppy Challenge
 
-Start the [Puppy Vision Workshop](/20_puppy_vision.html).
+Start the [Puppy Challenge](/20_puppy_vision.html).
+
+[![Cute doggies](20_puppy_vision/images/puppy-vision-01.png "Cute doggies")](/20_puppy_vision.html)
