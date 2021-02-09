@@ -14,9 +14,9 @@ The Puppy Challenge is a fun, innovative workshop that teaches you the basics of
 
 ### What is Machine Learning?
 
-Machine learning is the idea that computers can learn from data, find patterns and make decisions with minimal human intervention. It is an important technology which is being used to help make driver-less cars. Machine learning can detect anything you teach it, from humans to buildings and of course puppies. It does this by using algorithms to learn what objects look like from a collection of initial photos (called a data set).
+Machine learning is the idea that computers can learn from data, find patterns and make decisions with minimal human intervention. It is an important technology which is being used to help make driverless cars and language translators. You can use machine learning to detect many things from people to buildings and of course puppies. It does this by using algorithms to learn what objects look like from a collection of photos called a data set.
 
-Today you are going to learn how to use AWS to make your own machine learning program that recognizes puppies so that in the future you can help build amazing technologies that will help change the world.
+Today you are going to learn how to use AWS machine learning to make your own model that recognizes puppies. We hope this workshop inspires you to start a journey building amazing technologies that will help change the world for the better.
 
 ![Cool puppy with sunglasses](20_puppy_vision/images/puppy-vision-02.png "Cool puppy with sunglasses")
 
