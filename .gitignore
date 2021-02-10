@@ -6,3 +6,4 @@ static/viewer/node_modules/*
 static/.DS_Store
 static/cloudformation/.DS_Store
 .DS_Store
+static/viewer/src/node_modules/*
