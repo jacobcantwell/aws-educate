@@ -41,7 +41,7 @@ We have deployed a puppy model using the instructions above and deployed it with
 1. Open a new web browser tab and go to **https://d18nql8vde59kw.cloudfront.net/**
 2. Login with the username **puppy2**
 3. Use password **puppy2#**
-4. Choose the model
+4. Choose the **PuppyChallenge.2021-02-11T##.##.##** model
 5. Upload an image of a puppy
 6. View the results of the custom label
 
