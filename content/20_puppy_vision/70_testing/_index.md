@@ -39,8 +39,8 @@ You have done all of the hardwork creating a dataset, labelling your data, train
 We have deployed a puppy model using the instructions above and deployed it with a *Amazon Rekognition Custom Labels Demo* web application above.
 
 1. Open a new web browser tab and go to **https://d18nql8vde59kw.cloudfront.net/**
-2. Login with the username **puppy**
-3. Use password **puppy4#**
+2. Login with the username **puppy1**
+3. Use password **puppy1#**
 4. Choose the model
 5. Upload an image of a puppy
 6. View the results of the custom label
