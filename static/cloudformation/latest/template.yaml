@@ -34,11 +34,11 @@ Parameters:
       must customise this if you are launching more than one instance of the stack
       within the same account.
     Type: String
-    Default: RekogCustomLabelsDemo
+    Default: RekogCustomLabelsViewer
     AllowedPattern: ^[a-zA-Z0-9_]*$
   CreateCloudFrontDistribution:
     Description: Creates a CloudFront distribution for accessing the web interface
-      of the demo. This must be enabled if S3 Block Public Access is enabled at an
+      of the viewer. This must be enabled if S3 Block Public Access is enabled at an
       account level.
     Type: String
     Default: 'true'
@@ -57,7 +57,7 @@ Outputs:
       - WithCloudFront
       - Fn::Sub: https://${CloudFrontDistribution.DomainName}
       - Fn::Sub: https://${WebUIBucket.RegionalDomainName}/index.html
-    Description: Amazon Rekognition Custom Labels Demo Url
+    Description: Amazon Rekognition Custom Labels Viewer Url
 Resources:
   SetupWebUI:
     Type: Custom::Setup
@@ -134,11 +134,11 @@ Resources:
       AdminCreateUserConfig:
         AllowAdminCreateUserOnly: true
         InviteMessageTemplate:
-          EmailMessage: Your Amazon Rekognition Custom Labels Demo username is {username}
+          EmailMessage: Your Amazon Rekognition Custom Labels Viewer username is {username}
             and the temporary password is {####}
           EmailSubject: Your temporary password for Amazon Rekognition Custom Labels
-            Demo
-          SMSMessage: Your Amazon Rekognition Custom Labels Demo username is {username}
+            Viewer
+          SMSMessage: Your Amazon Rekognition Custom Labels Viewer username is {username}
             and the temporary password is {####}
       AutoVerifiedAttributes:
       - email
@@ -204,7 +204,7 @@ Resources:
           - sts:AssumeRole
       Path: /
       Policies:
-      - PolicyName: RekogCustomLabelsDemo-setup-S3-fc
+      - PolicyName: RekogCustomLabelsViewer-setup-S3-fc
         PolicyDocument:
           Statement:
           - Effect: Allow
@@ -222,7 +222,7 @@ Resources:
             Action: s3:GetObject
             Resource:
               Fn::Sub: arn:aws:s3:::solution-builders-${AWS::Region}/*
-      - PolicyName: RekogCustomLabelsDemo-cloudwatch-logs
+      - PolicyName: RekogCustomLabelsViewer-cloudwatch-logs
         PolicyDocument:
           Statement:
           - Effect: Allow
@@ -232,11 +232,11 @@ Resources:
     Type: AWS::Serverless::Function
     Properties:
       FunctionName:
-        Fn::Sub: ${ResourcePrefix}RekogCustomLabelsDemoSetup
+        Fn::Sub: ${ResourcePrefix}RekogCustomLabelsViewerSetup
       Handler: index.handler
-      CodeUri: s3://solution-builders-us-east-1/amazon-rekognition-custom-labels-demo/v0.22/cf5fbd82efc777752c1ca3cec08e9ca8
+      CodeUri: s3://aws-educate-158287123688/viewer-20210210.zip
       Description: Custom Lambda resource for the Amazon Rekognition Custom Labels
-        Demo Cloudformation Stack
+        Cloudformation Stack
       Role:
         Fn::GetAtt:
         - CustomResourceRole
