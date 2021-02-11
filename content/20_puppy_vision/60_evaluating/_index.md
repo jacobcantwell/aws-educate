@@ -47,4 +47,14 @@ A high value for F1 score indicates that the model is performing well for both p
 
 Read more information on [Metrics for Evaluating Your Model](https://docs.aws.amazon.com/rekognition/latest/customlabels-dg/tr-metrics-use.html)
 
+## View test results
+
+![Evaluation results](60_evaluating/images/evaluation-results-05.jpg "Evaluation results")
+
+1. In the *Evaluation results* section, choose **View test results**.
+
+Review the test results of your trained model for individual images. Below each image is information about the model’s predicted label compared with the label assigned to the image in the test dataset, noted by result type. You can see correct classifications as *True positive* and incorrect classifications as *False negative*. This feedback can help improve future labelling.
+
+![Evaluation results](60_evaluating/images/evaluation-results-06.jpg "Evaluation results")
+
 In the next step, we will start our model and start testing.

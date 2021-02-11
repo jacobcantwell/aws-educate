@@ -37,4 +37,10 @@ Amazon Rekognition will return to the *PuppyChallenge* project page. You should 
 Our model took approximately one hour to train. The training time required for your model depends on many factors, including the number of images provided in the dataset and the complexity of the model.
 {{% /notice %}}
 
+Refresh the page after waiting a while and eventually the *Model status* should change to *TRAINING_COMPLETED*.
+
+Choose **PuppyChallenge.2021-02-11T##.##.##** when the model is trained to view the evaluation results.
+
+![Training completed](50_training/images/training-04.jpg "Training completed")
+
 In the next step, we will evaluate the quality of your model.
