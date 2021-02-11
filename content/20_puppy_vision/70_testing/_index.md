@@ -38,10 +38,10 @@ You have done all of the hardwork creating a dataset, labelling your data, train
 
 We have deployed a puppy model using the instructions above and deployed it with a *Amazon Rekognition Custom Labels Demo* web application above.
 
-1. Open a new web browser tab and go to **https://d18nql8vde59kw.cloudfront.net/**
-2. Login with the username **puppy2**
-3. Use password **puppy2#**
-4. Choose the **PuppyChallenge.2021-02-11T##.##.##** model
+1. Open a new web browser tab and go to **https://viewer-aws-educate.jacobcantwell.com/**
+2. Login with the username **#####**
+3. Use password **######**
+4. Choose the **PuppyChallenge.2021-##-##T##.##.##** model
 5. Upload an image of a puppy
 6. View the results of the custom label
 
