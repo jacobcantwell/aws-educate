@@ -18,6 +18,13 @@ You have ten minutes to find the following photos of puppies on the internet. Se
 * Five photos of puppies at the beach
 * Five funny photos of puppies
 
+{{% notice info %}}
+Images must be less than 4096 pixels and greater than 64 pixels. Many of the Pexels photos are larger than this and you might need to resize your images.
+{{% /notice %}}
+
+You can also download these resized images.
+**[Download a collection of photos of puppies from Pexel](images/puppies.zip)**
+
 Make sure to save all pictures to your desktop.
 
 1. If you are in the *Amazon Rekognition Custom Labels* Projects page, choose **PuppyChallenge**
@@ -34,7 +41,7 @@ PuppyPhoto
 5. Choose **+ Add images**
 6. To add photos into the dataset, you can either drag your photos from the desktop into the data set or click **Choose files** and select your puppy photos from the desktop.
 ![Choose files](30_dataset/images/create-dataset-04.jpg "Choose files")
-7. You might get an error because your photos are too large or a problem with the filename. If you have problems, **try uploading one image at a time.** Images must be less than 4096 pixels and greater than 64 pixels. Try a smaller image if you have problems uploading larger images.
+7. You might get an error because your photos are too large or a problem with the filename. If you have problems, **try uploading one image at a time.** Images must be less than 4096 pixels and greater than 64 pixels. Try a smaller image if you have problems uploading larger images. Or **[Download a collection of photos of puppies from Pexel](images/puppies.zip)**
 8. Choose **Upload images**.
 9. Choose **Submit**.
 
