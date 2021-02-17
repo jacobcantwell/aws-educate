@@ -39,11 +39,21 @@ You have done all of the hardwork creating a dataset, labelling your data, train
 We have deployed a puppy model using the instructions above and deployed it with a *Amazon Rekognition Custom Labels Demo* web application above.
 
 1. Open a new web browser tab and go to **https://viewer-aws-educate.jacobcantwell.com/**
-2. Login with the username **#####**
-3. Use password **######**
+2. Login with the username **puppy2**
+```bash
+puppy2
+```
+3. Use password **puppy2#**
+```bash
+puppy2#
+```
 4. Choose the **PuppyChallenge.2021-##-##T##.##.##** model
-5. Upload an image of a puppy
-6. View the results of the custom label
+5. Upload an image of a puppy.
+6. View the results of the custom label.
+
+![Output of the model](70_testing/images/testing-02.jpg "Output of the model")
+
+You can see the *Results* from the train model output. The labels and confidence scores are listed and this web application draws a box around any puppies it has detected.
 
 {{% notice info %}}
 Post in the chat if the model detected your puppy image.
