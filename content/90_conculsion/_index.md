@@ -8,6 +8,4 @@ weight = 90
 
 Congratulations! You have reached the end of today's workshop.
 
-Please fill out today's [feedback form](/#).
-
-{{% children showhidden="false" %}}
+Please let your instructor know that you have finished.
