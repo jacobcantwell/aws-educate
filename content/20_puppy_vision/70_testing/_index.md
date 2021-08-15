@@ -23,6 +23,10 @@ There are multiple methods and programming languages that you can use to do this
 * Select number of Inference units, choose *1 inference unit*
 * Select *Start Model*
 
+{{% notice info %}}
+When your model is starting. It might take up to 30 minutes to start running.
+{{% /notice %}}
+
 See the full instructions for [Starting or Stopping an Amazon Rekognition Custom Labels Model (Console)](https://docs.aws.amazon.com/rekognition/latest/customlabels-dg/rm-start-model-console.html)
 
 {{% notice warning %}}
