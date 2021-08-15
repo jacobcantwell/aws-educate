@@ -18,6 +18,11 @@ There are multiple methods and programming languages that you can use to do this
 
 #### Starting and stopping a model
 
+* Select your model
+* Select *Use Model*
+* Select number of Inference units, choose *1 inference unit*
+* Select *Start Model*
+
 See the full instructions for [Starting or Stopping an Amazon Rekognition Custom Labels Model (Console)](https://docs.aws.amazon.com/rekognition/latest/customlabels-dg/rm-start-model-console.html)
 
 {{% notice warning %}}
