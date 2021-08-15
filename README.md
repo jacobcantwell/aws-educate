@@ -19,3 +19,17 @@ Today we are going to learn how to make your own machine learning program so tha
 * Understand how machine learning and the cloud can be used in the future
 
 [Puppy (and Kitten) Vision AWS Educate Workshop](https://aws-educate.jacobcantwell.com/)
+
+## Deploying
+
+### Hugo
+
+Install hugo.
+
+Run with 
+
+```bash
+hugo serve
+```
+
+Preview website at localhost:1313

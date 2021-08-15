@@ -30,19 +30,21 @@ Make sure to save all pictures to your desktop.
 1. If you are in the *Amazon Rekognition Custom Labels* Projects page, choose **PuppyChallenge**
 2. We need to start by creating the data set. Choose **Create dataset** to begin.
 ![Create data set](30_dataset/images/create-dataset-01.jpg "Create data set")
-3. Like when you have a puppy, it is also important to name our data set. Type in *PuppyPhoto* into the data set name box.
+3. Like when you have a puppy, it is also important to name our data set. Type in *PuppyPhotos* into the data set name box.
 ```bash
-PuppyPhoto
+PuppyPhotos
 ```
 ![Create data set](30_dataset/images/create-dataset-02.jpg "Create data set")
 3. We need to upload the pictures you found earlier to the data set! Choose **Upload images from your computer**.
 ![Upload images from your computer](30_dataset/images/create-dataset-03.jpg "Upload images from your computer")
-4. A Tool guide popup may appear the first time you create a dataset. Choose **Next** until the popup closes.
-5. Choose **+ Add images**
-6. To add photos into the dataset, you can either drag your photos from the desktop into the data set or click **Choose files** and select your puppy photos from the desktop.
+4. Choose *Submit*
+5. A Tool guide popup may appear the first time you create a dataset. Choose **Next** until the popup closes.
+6. Choose **+ Add images**
+7. To add photos into the dataset, you can either drag your photos from the desktop into the data set or click **Choose files** and select your puppy photos from the desktop.
 ![Choose files](30_dataset/images/create-dataset-04.jpg "Choose files")
-7. You might get an error because your photos are too large or a problem with the filename. If you have problems, **try uploading one image at a time.** Images must be less than 4096 pixels and greater than 64 pixels. Try a smaller image if you have problems uploading larger images. Or **[Download a collection of photos of puppies from Pexel](images/puppies.zip)**
-8. Choose **Upload images**.
-9. Choose **Submit**.
+8. *You can add 30 images this way at a time.*
+9. You might get an error because your photos are too large or a problem with the filename. If you have problems, **try uploading one image at a time.** Images must be less than 4096 pixels and greater than 64 pixels. Try a smaller image if you have problems uploading larger images. Or **[Download a collection of photos of puppies from Pexel](images/puppies.zip)**
+10. Choose **Upload images**.
+11. Choose **Submit**.
 
 In the next step, we will start labelling our photos.

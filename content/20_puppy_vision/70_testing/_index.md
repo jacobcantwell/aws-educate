@@ -26,9 +26,7 @@ There are some costs to training and running the model. [Amazon Rekognition Cust
 
 #### Amazon Rekognition Custom Labels Demo
 
-There is also a demonstration web application that you can deploy to view your model in a web application. [Amazon Rekognition Custom Labels Demo](https://github.com/aws-samples/amazon-rekognition-custom-labels-demo)
-
-Deploying the web application will be part of our next workshop and for now we will test a trained model that we started earlier.
+Deploying the web application will be part of our next step and for now we will test a trained model that we deployed earlier.
 
 {{% notice info %}}
 You have done all of the hardwork creating a dataset, labelling your data, training a model, and evaluating the model results. Post in the chat how you would use your own custom label model in your own software.
@@ -38,14 +36,14 @@ You have done all of the hardwork creating a dataset, labelling your data, train
 
 We have deployed a puppy model using the instructions above and deployed it with a *Amazon Rekognition Custom Labels Demo* web application above.
 
-1. Open a new web browser tab and go to **https://viewer-aws-educate.jacobcantwell.com/**
+1. Open a new web browser tab and go to **https://dwizm1fya2bik.cloudfront.net/**
 2. Login with the username **puppy2**
 ```bash
 puppy2
 ```
 3. Use password **puppy2#**
 ```bash
-puppy2#
+puppy2$
 ```
 4. Choose the **PuppyChallenge.2021-##-##T##.##.##** model
 5. Upload an image of a puppy.
@@ -55,8 +53,27 @@ puppy2#
 
 You can see the *Results* from the train model output. The labels and confidence scores are listed and this web application draws a box around any puppies it has detected.
 
+Look at the response to see the label applied to your image.
+
+```json
+{
+  "CustomLabels": [
+    {
+      "Confidence": 83.60199737548828,
+      "Geometry": {
+        "BoundingBox": {
+          "Height": 0.6938999891281128,
+          "Left": 0.2750700116157532,
+          "Top": 0.23050999641418457,
+          "Width": 0.4900299906730652
+        }
+      },
+      "Name": "Puppy"
+    }
+  ]
+}
+```
+
 {{% notice info %}}
 Post in the chat if the model detected your puppy image.
 {{% /notice %}}
-
-Next step is the conclusion.

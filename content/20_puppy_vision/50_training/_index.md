@@ -14,7 +14,7 @@ As part of model training, Amazon Rekognition Custom Labels requires a labeled t
 
 If you are still in your *PuppyChallenge* project page:
 
-1. Choose **Train model**.
+1. Choose **Train new model**.
 
 If you are back on the *Amazon Rekognition Custom Labels* page,
 
@@ -23,7 +23,7 @@ If you are back on the *Amazon Rekognition Custom Labels* page,
 3. Choose **Train new model**.
 ![Train new model](50_training/images/training-01.jpg "Train new model")
 4. For *Choose project*, choose your **PuppyChallenge** project.
-5. For *Choose training dataset*, choose your **PuppyPhoto** dataset.
+5. For *Choose training dataset*, choose your **PuppyPhotos** dataset.
 6. For *Create test set*, choose **Split training dataset**.
 
 With a *Split training dataset*, Amazon Rekognition will hold back 20% of the images for testing and use the remaining 80% of the images to train the model.

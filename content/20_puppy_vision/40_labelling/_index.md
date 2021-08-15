@@ -12,15 +12,15 @@ You tell Amazon Rekognition what it needs to learn by creating labels in each ph
 
 1. We need to create a label. Choose **Add labels** and a popup window will appear.
 ![Add labels](40_labelling/images/labelling-01.jpg "Add labels")
-2. Choose **Add labels** and type in *Puppies*.
+2. Choose **Add labels** and type in *Puppy*.
 ```bash
-Puppies
+Puppy
 ```
 3. When you are done choose **Add label**.
 4. Choose **Save**.
-![Add Puppies label](40_labelling/images/labelling-02.jpg "Add Puppies label")
+![Add Puppies label](40_labelling/images/labelling-02.jpg "Add Puppy label")
 
-You should see a *Puppies* label appear in the *Filter by labels* section.
+You should see a *Puppy* label appear in the *Filter by labels* section.
 
 ## Assign labels
 
